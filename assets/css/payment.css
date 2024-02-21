@@ -1,0 +1,218 @@
+	/* Filename: style.css File
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+	}
+
+	.container {
+		height: 900px;
+		width: 2000px;
+		background-image: linear-gradient(#1e6b30, #308d46);
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		border-bottom-left-radius: 180px;
+		border-top-right-radius: 150px;
+	}
+
+	.main-content {
+		height: 235px;
+		background-color: #1b9236;
+		border-bottom-left-radius: 90px;
+		border-bottom-right-radius: 80px;
+		border-top: #1e6b30;
+	}
+
+	.text {
+		text-align: center;
+		font-size: 300%;
+		text-decoration: aliceblue;
+		color: aliceblue;
+	}
+
+	.course {
+		color: black;
+		font-size: 25px;
+		font-weight: bolder;
+	}
+
+	.centre-content {
+		height: 180px;
+		margin: -70px 30px 20px;
+		color: aliceblue;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 25px;
+		padding-top: 0.5px;
+		background-image: linear-gradient(#1e6b30, #308d46);
+	}
+
+	.centre-content-h1 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-weight: normal;
+	}
+
+	.price {
+		font-size: 60px;
+		margin-left: 5px;
+		bottom: 15px;
+		position: relative;
+	}
+
+	.pay-now-btn {
+		cursor: pointer;
+		color: #fff;
+		height: 50px;
+		width: 290px;
+		border: none;
+		margin: 5px 30px;
+		background-color: rgb(71, 177, 61);
+		position: relative;
+	}
+
+	.card-details {
+		background: rgb(8, 49, 14);
+		color: rgb(225, 223, 233);
+		margin: 10px 30px;
+		padding: 10px;
+		/* border-bottom-left-radius: 80px; 
+	}*/
+/*? 
+		.card-details p {
+			font-size: 15px;
+		}
+
+		.card-details label {
+			font-size: 15px;
+			line-height: 35px;
+		}
+
+		.submit-now-btn {
+			cursor: pointer;
+			color: #fff;
+			height: 30px;
+			width: 240px;
+			border: none;
+			margin: 5px 30px;
+			background-color: rgb(71, 177, 61);
+		} */ 
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap'); 
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	border: none; 
+	outline: none; 
+	font-family: 'Poppins', sans-serif; 
+	text-transform: capitalize; 
+	transition: all 0.2s linear;
+} 
+
+.container { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	min-height: 100vh; 
+	padding: 25px; 
+	background: #d6eef1; 
+
+		/* background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676577337_catherineasquithgallery-com-p-zelenii-tekst-na-oranzhevom-fone-190.jpg); */
+  background: linear-gradient(90deg, rgba(255,255,36,0.75) 50%, rgba(255,100,100,1) 100%);
+} 
+
+.container form { 
+	width: 700px; 
+	padding: 20px; 
+	background: #fff; 
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2); 
+} 
+
+.container form .row { 
+	display: flex; 
+	flex-wrap: wrap; 
+	gap: 15px; 
+} 
+
+.container form .row .col { 
+	flex: 1 1 250px; 
+} 
+
+.col .title { 
+	font-size: 20px; 
+	color: rgb(237, 55, 23); 
+	padding-bottom: 5px; 
+} 
+
+.col .inputBox { 
+	margin: 15px 0; 
+} 
+
+.col .inputBox label { 
+	margin-bottom: 10px; 
+	display: block; 
+} 
+
+.col .inputBox input, 
+.col .inputBox select { 
+	width: 100%; 
+	border: 1px solid #ccc; 
+	padding: 10px 15px; 
+	font-size: 15px; 
+} 
+
+.col .inputBox input:focus, 
+.col .inputBox select:focus { 
+	border: 1px solid #000; 
+} 
+
+.col .flex { 
+	display: flex; 
+	gap: 15px; 
+} 
+
+.col .flex .inputBox { 
+	flex: 1 1; 
+	margin-top: 5px; 
+} 
+
+.col .inputBox img { 
+	height: 34px; 
+	margin-top: 5px; 
+	filter: drop-shadow(0 0 1px #000); 
+} 
+
+.container form .submit_btn { 
+	width: 100%; 
+	padding: 12px; 
+	font-size: 17px; 
+	background: rgb(1, 143, 34); 
+	color: #fff; 
+	margin-top: 5px; 
+	cursor: pointer; 
+	letter-spacing: 1px; 
+} 
+
+.container form .submit_btn:hover { 
+	background: #3d17fb; 
+} 
+
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+	display: none; 
+}
+
+
+

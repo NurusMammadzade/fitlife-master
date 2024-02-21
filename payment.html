@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>Online Payment-Page</title> 
+	<link rel="stylesheet" href="/assets/css/payment.css"> 
+</head> 
+
+<body> 
+	<div class="container"> 
+
+		<form action="#"> 
+
+			<div class="row"> 
+
+				<div class="col"> 
+					<h3 class="title"> 
+						Billing Address 
+					</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Full Name: 
+						</label> 
+						<input type="text" id="name"
+							placeholder="Enter your full name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="email"> 
+							Email: 
+						</label> 
+						<input type="text" id="email"
+							placeholder="Enter email address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="address"> 
+							Address: 
+						</label> 
+						<input type="text" id="address"
+							placeholder="Enter address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="city"> 
+							City: 
+						</label> 
+						<input type="text" id="city"
+							placeholder="Enter city"
+							required> 
+					</div> 
+
+					<div class="flex"> 
+
+						<div class="inputBox"> 
+							<label for="state"> 
+								State: 
+							</label> 
+							<input type="text" id="state"
+								placeholder="Enter state"
+								required> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="zip"> 
+								Zip Code: 
+							</label> 
+							<input type="number" id="zip"
+								placeholder="123 456"
+								required> 
+						</div> 
+
+					</div> 
+
+				</div> 
+				<div class="col"> 
+					<h3 class="title">Payment</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Card Accepted: 
+						</label> 
+						<img src="./assets/images/payments.jpg"
+							alt="credit/debit card image"> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardName"> 
+							Name On Card: 
+						</label> 
+						<input type="text" id="cardName"
+							placeholder="Enter card name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardNum"> 
+							Credit Card Number: 
+						</label> 
+						<input type="text" id="cardNum"
+							placeholder="1111-2222-3333-4444"
+							maxlength="19" required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="name">Exp Month:</label> 
+						<select name="selec" id="select"> 
+							<option value="">Choose month</option> 
+							<option value="January">January</option> 
+							<option value="February">February</option> 
+							<option value="March">March</option> 
+							<option value="April">April</option> 
+							<option value="May">May</option> 
+							<option value="June">June</option> 
+							<option value="July">July</option> 
+							<option value="August">August</option> 
+							<option value="September">September</option> 
+							<option value="October">October</option> 
+							<option value="November">November</option> 
+							<option value="December">December</option> 
+						</select> 
+					</div> 
+
+
+					<div class="flex"> 
+						<div class="inputBox"> 
+							<label for="year">Exp Year:</label> 
+							<select name="select" id="select"> 
+								<option value="">Choose Year</option> 
+								<option value="2024">2024</option> 
+								<option value="2025">2025</option> 
+								<option value="2026">2026</option> 
+								<option value="2027">2027</option>
+								<option value="2027">2028</option> 
+								<option value="2027">2029</option> 
+								<option value="2027">2030</option> 
+								<option value="2027">2031</option> 
+								<option value="2027">2032</option> 
+								<option value="2027">2033</option> 
+								<option value="2027">2034</option> 
+								<option value="2027">2035</option> 
+								<option value="2027">2036</option> 
+								<option value="2027">2037</option> 
+								<option value="2027">2038</option> 
+								<option value="2027">2039</option> 
+								<option value="2027">2040</option> 
+								<option value="2027">2041</option> 
+								<option value="2027">2042</option> 
+								<option value="2027">2043</option> 
+								<option value="2027">2044</option> 
+								<option value="2027">2045</option> 
+								<option value="2027">2046</option> 
+								<option value="2027">2047</option> 
+								<option value="2027">2048</option> 
+								<option value="2027">2049</option> 
+								<option value="2027">2050</option> 
+								<option value="2027">2051</option> 
+								<option value="2027">2052</option> 
+								<option value="2027">2053</option> 
+								<option value="2027">2054</option> 
+								<option value="2027">2055</option> 
+								<option value="2027">2056</option> 
+								<option value="2027">2057</option> 
+								<option value="2027">2058</option> 
+								<option value="2027">2059</option> 
+								<option value="2027">2060</option> 
+								<option value="2027">2061</option> 
+								<option value="2027">2062</option> 
+								<option value="2027">2063</option> 
+								<option value="2027">2064</option> 
+								<option value="2027">2065</option> 
+								<option value="2027">2066</option> 
+								<option value="2027">2067</option> 
+								<option value="2027">2068</option> 
+								<option value="2027">2069</option> 
+							</select> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="cvv">CVV</label> 
+							<input type="number" id="cvv" placeholder="123" required> 
+						</div> 
+					</div> 
+
+				</div> 
+
+			</div> 
+
+			<input type="submit" value="Proceed to Checkout" class="submit_btn" onclick="location.href='/watchwideo.html'"> 
+		</form> 
+
+	</div> 
+	<script type="text/javascript" src="./assets/js/payment.js"></script> 
+</body> 
+
+</html>
